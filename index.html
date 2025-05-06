@@ -114,7 +114,41 @@
                   </p>
                 </td>
               </tr>
+              <tr onmouseout="sample2_stop()" onmouseover="sample2_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='sample2_image'><video width=100% muted autoplay loop>
+                        <source src="images/elevateHERGif.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/elevateHER_logo_colored.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function sample2_start() {
+                      document.getElementById('sample2_image').style.opacity = "1";
+                    }
 
+                    function sample2_stop() {
+                      document.getElementById('sample2_image').style.opacity = "0";
+                    }
+                    sample2_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <a href="https://fleurest.github.io/prototype">
+                    <span class="papertitle">elevateHER</span>
+                  </a>
+                  <br>
+                  <a href="">Fleur Edwards</a>,
+                  <br>
+                  [ <a href="https://fleurest.github.io/prototype">video</a><a> | </a><a href="https://www.github.com/fleurest/elevateHER">github</a>
+                  ]
+                  <em> 2025</em>
+                  <p>
+                    Stitching together women’s sports statistics to advance play equity
+                  </p>
+                </td>
+              </tr>
               <tr onmouseout="sample2_stop()" onmouseover="sample2_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
                   <div class="one">
@@ -248,18 +282,19 @@
 
             </tbody>
           </table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-               <tr>
-                  <td style="padding:0px">
-                     <br>
-                     <p style="text-align:right;font-size:small;">
-                        <a href="https://jonbarron.info">✩</a>
-                     </p>
-                  </td>
-               </tr>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    <a href="https://jonbarron.info">✩</a>
+                  </p>
+                </td>
+              </tr>
             </tbody>
-         </table>
+          </table>
         </td>
       </tr>
   </table>
